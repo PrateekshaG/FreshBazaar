@@ -1,0 +1,205 @@
+* {
+margin: 0;
+font-family: Arial;
+border: border-box;
+/* height and weidth to keep in border */
+}
+
+.navbar {
+    height: 60px;
+    background-color: darkseagreen;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 55px;
+    width: 160px;
+}
+
+.logo {
+    background-image: url("Logo.png");
+    background-size: cover;
+    height: 55px;
+    width: 100%;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+/* box2 */
+
+.add-first {
+    font-size: 0.75rem;
+    margin-left: 15px;
+}
+
+.add-sec {
+    font-size: 0.95rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* box3 (search) */
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: wheat;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.nav-search:hover {
+    border: 2px solid rgb(231, 237, 43);
+}
+/* box 4 */
+
+span {
+    font-size: 0.75rem;
+
+}
+/* box 5 */
+.nav-sec {
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+/* box 6 Bag/Cart */
+
+.nav-bag i {
+    font-size: 30px;
+    height: 25px;
+}
+
+.nav-bag {
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+/* Panel */
+
+.panel {
+    height : 40px;
+    background-color: rgb(159, 208, 159);
+    display: flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-option p {
+    display: inline;
+    margin-left: 12px;
+}
+
+.panel-option {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* background image */
+.veggie-section {
+    background-image: url(Veggie.jpeg);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.veggie-message {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    /*Vertical center */
+    align-items: center; 
+    /*Horizontal center */
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 20px;
+
+}
+
+.veggie-message a {
+    color: #007185;
+}
+
+/* shop product display boxes */
+
+.product-section{
+    display: flex;
+    /* even spaces */
+    justify-content: space-evenly;
+    background-color: rgb(219, 251, 219);
+}
+
+.box {
+    /* border: 2px solid darkseagreen; */
+    height: 400px;
+    width: 22%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.box-image {
+    height: 300px;
+    background-image: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.box-content {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.box-content p {
+    color: #007185;;
+}
